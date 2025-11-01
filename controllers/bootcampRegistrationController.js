@@ -1,7 +1,7 @@
 import { sendBootcampRegistrationEmail } from "../mailtrap/emails.js";
 import Bootcamp from "../models/BootCampModel.js";
 import Registration from "../models/bootcampRegistrationModel.js";
-import userModel from "../models/UserModel.js";
+import userModel from "../models/userModel.js";
 
 export const registerForBootcamp = async (req, res) => {
   try {
